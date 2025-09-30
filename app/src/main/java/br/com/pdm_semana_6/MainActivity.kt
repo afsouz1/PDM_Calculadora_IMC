@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
 
                 val imc = peso / (altura * altura)
 
-                val resultadoFormatado = String.format("Resultado: %.2f", imc)
+                val resultadoFormatado = String.format("Resultado: %.2f \n App Criado por: Alan Souza / ADS6", imc)
                 resultadoText.text = resultadoFormatado
 
             } catch (e: NumberFormatException) {
